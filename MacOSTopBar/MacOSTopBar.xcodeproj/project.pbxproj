@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F22BE7D02BE2484B000A1DEA /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BE7CF2BE2484B000A1DEA /* MenuScene.swift */; };
+		F22BE7D22BE24FE0000A1DEA /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BE7D12BE24FE0000A1DEA /* Border.swift */; };
+		F22BE7D42BE250B6000A1DEA /* ExpBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BE7D32BE250B6000A1DEA /* ExpBar.swift */; };
+		F22BE7D62BE25180000A1DEA /* MainCheckList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BE7D52BE25180000A1DEA /* MainCheckList.swift */; };
+		F22BE7D82BE25192000A1DEA /* SettingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BE7D72BE25192000A1DEA /* SettingBar.swift */; };
 		F2A14B782BE1C08C00979D98 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B772BE1C08C00979D98 /* MenuController.swift */; };
 		F2A14B7C2BE1C08D00979D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A14B7B2BE1C08D00979D98 /* Assets.xcassets */; };
 		F2A14B7F2BE1C08D00979D98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A14B7E2BE1C08D00979D98 /* Preview Assets.xcassets */; };
@@ -35,7 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F22BE7CF2BE2484B000A1DEA /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		F22BE7D12BE24FE0000A1DEA /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
+		F22BE7D32BE250B6000A1DEA /* ExpBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpBar.swift; sourceTree = "<group>"; };
+		F22BE7D52BE25180000A1DEA /* MainCheckList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCheckList.swift; sourceTree = "<group>"; };
+		F22BE7D72BE25192000A1DEA /* SettingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingBar.swift; sourceTree = "<group>"; };
 		F2A14B742BE1C08C00979D98 /* MacOSTopBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSTopBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A14B772BE1C08C00979D98 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		F2A14B7B2BE1C08D00979D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,9 +103,12 @@
 		F2A14B762BE1C08C00979D98 /* MacOSTopBar */ = {
 			isa = PBXGroup;
 			children = (
-				F22BE7CF2BE2484B000A1DEA /* MenuScene.swift */,
-				F2C4C88D2BE237B500A6D7C4 /* PopUpScene.swift */,
 				F2A14B772BE1C08C00979D98 /* MenuController.swift */,
+				F2C4C88D2BE237B500A6D7C4 /* PopUpScene.swift */,
+				F22BE7D12BE24FE0000A1DEA /* Border.swift */,
+				F22BE7D32BE250B6000A1DEA /* ExpBar.swift */,
+				F22BE7D52BE25180000A1DEA /* MainCheckList.swift */,
+				F22BE7D72BE25192000A1DEA /* SettingBar.swift */,
 				F2A14B7B2BE1C08D00979D98 /* Assets.xcassets */,
 				F2A14B802BE1C08D00979D98 /* MacOSTopBar.entitlements */,
 				F2A14B7D2BE1C08D00979D98 /* Preview Content */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F22BE7D02BE2484B000A1DEA /* MenuScene.swift in Sources */,
+				F22BE7D82BE25192000A1DEA /* SettingBar.swift in Sources */,
 				F2C4C88E2BE237B500A6D7C4 /* PopUpScene.swift in Sources */,
+				F22BE7D42BE250B6000A1DEA /* ExpBar.swift in Sources */,
+				F22BE7D62BE25180000A1DEA /* MainCheckList.swift in Sources */,
+				F22BE7D22BE24FE0000A1DEA /* Border.swift in Sources */,
 				F2A14B782BE1C08C00979D98 /* MenuController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

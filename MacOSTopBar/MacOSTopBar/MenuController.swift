@@ -9,12 +9,10 @@ import SwiftUI
 
 @main
 struct MenuController: App {
-    
     var body : some Scene{
-        
         MenuBarExtra {
-            AppMenu()
-        } 
+            MainBorder()
+        }
         label : {
             let image: NSImage = {
                 let ratio = $0.size.height / $0.size.width
@@ -23,16 +21,10 @@ struct MenuController: App {
                 return $0
             }(NSImage(named: "AppIcon")!)
             Image(nsImage: image)
-        }
+        }.menuBarExtraStyle(.window)
         
     }
-    
-    
 }
 
-struct AppMenu: View {
-    var body: some View {
-        Text("App Menu Item")
-    }
-}
+
 
