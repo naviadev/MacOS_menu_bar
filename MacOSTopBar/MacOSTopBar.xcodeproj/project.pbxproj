@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2A14B782BE1C08C00979D98 /* MacOSTopBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B772BE1C08C00979D98 /* MacOSTopBarApp.swift */; };
+		F2A14B7A2BE1C08C00979D98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B792BE1C08C00979D98 /* ContentView.swift */; };
+		F2A14B7C2BE1C08D00979D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A14B7B2BE1C08D00979D98 /* Assets.xcassets */; };
+		F2A14B7F2BE1C08D00979D98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A14B7E2BE1C08D00979D98 /* Preview Assets.xcassets */; };
+		F2A14B8A2BE1C08D00979D98 /* MacOSTopBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B892BE1C08D00979D98 /* MacOSTopBarTests.swift */; };
+		F2A14B942BE1C08D00979D98 /* MacOSTopBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B932BE1C08D00979D98 /* MacOSTopBarUITests.swift */; };
+		F2A14B962BE1C08D00979D98 /* MacOSTopBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B952BE1C08D00979D98 /* MacOSTopBarUITestsLaunchTests.swift */; };
+		F2C4C88E2BE237B500A6D7C4 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C4C88D2BE237B500A6D7C4 /* MenuBarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2A14B862BE1C08D00979D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2A14B6C2BE1C08C00979D98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2A14B732BE1C08C00979D98;
+			remoteInfo = MacOSTopBar;
+		};
+		F2A14B902BE1C08D00979D98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2A14B6C2BE1C08C00979D98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2A14B732BE1C08C00979D98;
+			remoteInfo = MacOSTopBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2A14B742BE1C08C00979D98 /* MacOSTopBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSTopBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A14B772BE1C08C00979D98 /* MacOSTopBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSTopBarApp.swift; sourceTree = "<group>"; };
+		F2A14B792BE1C08C00979D98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2A14B7B2BE1C08D00979D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2A14B7E2BE1C08D00979D98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2A14B802BE1C08D00979D98 /* MacOSTopBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSTopBar.entitlements; sourceTree = "<group>"; };
+		F2A14B852BE1C08D00979D98 /* MacOSTopBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacOSTopBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A14B892BE1C08D00979D98 /* MacOSTopBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSTopBarTests.swift; sourceTree = "<group>"; };
+		F2A14B8F2BE1C08D00979D98 /* MacOSTopBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacOSTopBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A14B932BE1C08D00979D98 /* MacOSTopBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSTopBarUITests.swift; sourceTree = "<group>"; };
+		F2A14B952BE1C08D00979D98 /* MacOSTopBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSTopBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2C4C88D2BE237B500A6D7C4 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2A14B712BE1C08C00979D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A14B822BE1C08D00979D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A14B8C2BE1C08D00979D98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2A14B6B2BE1C08C00979D98 = {
+			isa = PBXGroup;
+			children = (
+				F2A14B762BE1C08C00979D98 /* MacOSTopBar */,
+				F2A14B882BE1C08D00979D98 /* MacOSTopBarTests */,
+				F2A14B922BE1C08D00979D98 /* MacOSTopBarUITests */,
+				F2A14B752BE1C08C00979D98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2A14B752BE1C08C00979D98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2A14B742BE1C08C00979D98 /* MacOSTopBar.app */,
+				F2A14B852BE1C08D00979D98 /* MacOSTopBarTests.xctest */,
+				F2A14B8F2BE1C08D00979D98 /* MacOSTopBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2A14B762BE1C08C00979D98 /* MacOSTopBar */ = {
+			isa = PBXGroup;
+			children = (
+				F2A14B772BE1C08C00979D98 /* MacOSTopBarApp.swift */,
+				F2A14B792BE1C08C00979D98 /* ContentView.swift */,
+				F2A14B7B2BE1C08D00979D98 /* Assets.xcassets */,
+				F2A14B802BE1C08D00979D98 /* MacOSTopBar.entitlements */,
+				F2A14B7D2BE1C08D00979D98 /* Preview Content */,
+				F2C4C88D2BE237B500A6D7C4 /* MenuBarView.swift */,
+			);
+			path = MacOSTopBar;
+			sourceTree = "<group>";
+		};
+		F2A14B7D2BE1C08D00979D98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2A14B7E2BE1C08D00979D98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2A14B882BE1C08D00979D98 /* MacOSTopBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2A14B892BE1C08D00979D98 /* MacOSTopBarTests.swift */,
+			);
+			path = MacOSTopBarTests;
+			sourceTree = "<group>";
+		};
+		F2A14B922BE1C08D00979D98 /* MacOSTopBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2A14B932BE1C08D00979D98 /* MacOSTopBarUITests.swift */,
+				F2A14B952BE1C08D00979D98 /* MacOSTopBarUITestsLaunchTests.swift */,
+			);
+			path = MacOSTopBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2A14B732BE1C08C00979D98 /* MacOSTopBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A14B992BE1C08D00979D98 /* Build configuration list for PBXNativeTarget "MacOSTopBar" */;
+			buildPhases = (
+				F2A14B702BE1C08C00979D98 /* Sources */,
+				F2A14B712BE1C08C00979D98 /* Frameworks */,
+				F2A14B722BE1C08C00979D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacOSTopBar;
+			productName = MacOSTopBar;
+			productReference = F2A14B742BE1C08C00979D98 /* MacOSTopBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2A14B842BE1C08D00979D98 /* MacOSTopBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A14B9C2BE1C08D00979D98 /* Build configuration list for PBXNativeTarget "MacOSTopBarTests" */;
+			buildPhases = (
+				F2A14B812BE1C08D00979D98 /* Sources */,
+				F2A14B822BE1C08D00979D98 /* Frameworks */,
+				F2A14B832BE1C08D00979D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2A14B872BE1C08D00979D98 /* PBXTargetDependency */,
+			);
+			name = MacOSTopBarTests;
+			productName = MacOSTopBarTests;
+			productReference = F2A14B852BE1C08D00979D98 /* MacOSTopBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2A14B8E2BE1C08D00979D98 /* MacOSTopBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A14B9F2BE1C08D00979D98 /* Build configuration list for PBXNativeTarget "MacOSTopBarUITests" */;
+			buildPhases = (
+				F2A14B8B2BE1C08D00979D98 /* Sources */,
+				F2A14B8C2BE1C08D00979D98 /* Frameworks */,
+				F2A14B8D2BE1C08D00979D98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2A14B912BE1C08D00979D98 /* PBXTargetDependency */,
+			);
+			name = MacOSTopBarUITests;
+			productName = MacOSTopBarUITests;
+			productReference = F2A14B8F2BE1C08D00979D98 /* MacOSTopBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2A14B6C2BE1C08C00979D98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F2A14B732BE1C08C00979D98 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F2A14B842BE1C08D00979D98 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F2A14B732BE1C08C00979D98;
+					};
+					F2A14B8E2BE1C08D00979D98 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F2A14B732BE1C08C00979D98;
+					};
+				};
+			};
+			buildConfigurationList = F2A14B6F2BE1C08C00979D98 /* Build configuration list for PBXProject "MacOSTopBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2A14B6B2BE1C08C00979D98;
+			productRefGroup = F2A14B752BE1C08C00979D98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2A14B732BE1C08C00979D98 /* MacOSTopBar */,
+				F2A14B842BE1C08D00979D98 /* MacOSTopBarTests */,
+				F2A14B8E2BE1C08D00979D98 /* MacOSTopBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2A14B722BE1C08C00979D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A14B7F2BE1C08D00979D98 /* Preview Assets.xcassets in Resources */,
+				F2A14B7C2BE1C08D00979D98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A14B832BE1C08D00979D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A14B8D2BE1C08D00979D98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2A14B702BE1C08C00979D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A14B7A2BE1C08C00979D98 /* ContentView.swift in Sources */,
+				F2C4C88E2BE237B500A6D7C4 /* MenuBarView.swift in Sources */,
+				F2A14B782BE1C08C00979D98 /* MacOSTopBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A14B812BE1C08D00979D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A14B8A2BE1C08D00979D98 /* MacOSTopBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2A14B8B2BE1C08D00979D98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A14B962BE1C08D00979D98 /* MacOSTopBarUITestsLaunchTests.swift in Sources */,
+				F2A14B942BE1C08D00979D98 /* MacOSTopBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2A14B872BE1C08D00979D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2A14B732BE1C08C00979D98 /* MacOSTopBar */;
+			targetProxy = F2A14B862BE1C08D00979D98 /* PBXContainerItemProxy */;
+		};
+		F2A14B912BE1C08D00979D98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2A14B732BE1C08C00979D98 /* MacOSTopBar */;
+			targetProxy = F2A14B902BE1C08D00979D98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2A14B972BE1C08D00979D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2A14B982BE1C08D00979D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F2A14B9A2BE1C08D00979D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacOSTopBar/MacOSTopBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOSTopBar/Preview Content\"";
+				DEVELOPMENT_TEAM = HFWQ2YPHDQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sp.MacOSTopBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F2A14B9B2BE1C08D00979D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacOSTopBar/MacOSTopBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MacOSTopBar/Preview Content\"";
+				DEVELOPMENT_TEAM = HFWQ2YPHDQ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sp.MacOSTopBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F2A14B9D2BE1C08D00979D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFWQ2YPHDQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sp.MacOSTopBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOSTopBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOSTopBar";
+			};
+			name = Debug;
+		};
+		F2A14B9E2BE1C08D00979D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFWQ2YPHDQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sp.MacOSTopBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacOSTopBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacOSTopBar";
+			};
+			name = Release;
+		};
+		F2A14BA02BE1C08D00979D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFWQ2YPHDQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sp.MacOSTopBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacOSTopBar;
+			};
+			name = Debug;
+		};
+		F2A14BA12BE1C08D00979D98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HFWQ2YPHDQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sp.MacOSTopBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MacOSTopBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2A14B6F2BE1C08C00979D98 /* Build configuration list for PBXProject "MacOSTopBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A14B972BE1C08D00979D98 /* Debug */,
+				F2A14B982BE1C08D00979D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A14B992BE1C08D00979D98 /* Build configuration list for PBXNativeTarget "MacOSTopBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A14B9A2BE1C08D00979D98 /* Debug */,
+				F2A14B9B2BE1C08D00979D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A14B9C2BE1C08D00979D98 /* Build configuration list for PBXNativeTarget "MacOSTopBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A14B9D2BE1C08D00979D98 /* Debug */,
+				F2A14B9E2BE1C08D00979D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A14B9F2BE1C08D00979D98 /* Build configuration list for PBXNativeTarget "MacOSTopBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A14BA02BE1C08D00979D98 /* Debug */,
+				F2A14BA12BE1C08D00979D98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2A14B6C2BE1C08C00979D98 /* Project object */;
+}
