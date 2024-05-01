@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2A14B782BE1C08C00979D98 /* MacOSTopBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B772BE1C08C00979D98 /* MacOSTopBarApp.swift */; };
-		F2A14B7A2BE1C08C00979D98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B792BE1C08C00979D98 /* ContentView.swift */; };
+		F22BE7D02BE2484B000A1DEA /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BE7CF2BE2484B000A1DEA /* MenuScene.swift */; };
+		F2A14B782BE1C08C00979D98 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B772BE1C08C00979D98 /* MenuController.swift */; };
 		F2A14B7C2BE1C08D00979D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A14B7B2BE1C08D00979D98 /* Assets.xcassets */; };
 		F2A14B7F2BE1C08D00979D98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A14B7E2BE1C08D00979D98 /* Preview Assets.xcassets */; };
 		F2A14B8A2BE1C08D00979D98 /* MacOSTopBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B892BE1C08D00979D98 /* MacOSTopBarTests.swift */; };
 		F2A14B942BE1C08D00979D98 /* MacOSTopBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B932BE1C08D00979D98 /* MacOSTopBarUITests.swift */; };
 		F2A14B962BE1C08D00979D98 /* MacOSTopBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A14B952BE1C08D00979D98 /* MacOSTopBarUITestsLaunchTests.swift */; };
-		F2C4C88E2BE237B500A6D7C4 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C4C88D2BE237B500A6D7C4 /* MenuBarView.swift */; };
+		F2C4C88E2BE237B500A6D7C4 /* PopUpScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C4C88D2BE237B500A6D7C4 /* PopUpScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F22BE7CF2BE2484B000A1DEA /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		F2A14B742BE1C08C00979D98 /* MacOSTopBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacOSTopBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2A14B772BE1C08C00979D98 /* MacOSTopBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSTopBarApp.swift; sourceTree = "<group>"; };
-		F2A14B792BE1C08C00979D98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2A14B772BE1C08C00979D98 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		F2A14B7B2BE1C08D00979D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2A14B7E2BE1C08D00979D98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2A14B802BE1C08D00979D98 /* MacOSTopBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacOSTopBar.entitlements; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		F2A14B8F2BE1C08D00979D98 /* MacOSTopBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacOSTopBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A14B932BE1C08D00979D98 /* MacOSTopBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSTopBarUITests.swift; sourceTree = "<group>"; };
 		F2A14B952BE1C08D00979D98 /* MacOSTopBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSTopBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F2C4C88D2BE237B500A6D7C4 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		F2C4C88D2BE237B500A6D7C4 /* PopUpScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +97,12 @@
 		F2A14B762BE1C08C00979D98 /* MacOSTopBar */ = {
 			isa = PBXGroup;
 			children = (
-				F2A14B772BE1C08C00979D98 /* MacOSTopBarApp.swift */,
-				F2A14B792BE1C08C00979D98 /* ContentView.swift */,
+				F22BE7CF2BE2484B000A1DEA /* MenuScene.swift */,
+				F2C4C88D2BE237B500A6D7C4 /* PopUpScene.swift */,
+				F2A14B772BE1C08C00979D98 /* MenuController.swift */,
 				F2A14B7B2BE1C08D00979D98 /* Assets.xcassets */,
 				F2A14B802BE1C08D00979D98 /* MacOSTopBar.entitlements */,
 				F2A14B7D2BE1C08D00979D98 /* Preview Content */,
-				F2C4C88D2BE237B500A6D7C4 /* MenuBarView.swift */,
 			);
 			path = MacOSTopBar;
 			sourceTree = "<group>";
@@ -262,9 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A14B7A2BE1C08C00979D98 /* ContentView.swift in Sources */,
-				F2C4C88E2BE237B500A6D7C4 /* MenuBarView.swift in Sources */,
-				F2A14B782BE1C08C00979D98 /* MacOSTopBarApp.swift in Sources */,
+				F22BE7D02BE2484B000A1DEA /* MenuScene.swift in Sources */,
+				F2C4C88E2BE237B500A6D7C4 /* PopUpScene.swift in Sources */,
+				F2A14B782BE1C08C00979D98 /* MenuController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
