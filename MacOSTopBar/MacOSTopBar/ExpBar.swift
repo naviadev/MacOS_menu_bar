@@ -10,7 +10,11 @@ import SwiftUI
 struct ExpBar : View {
     var body: some View {
         HStack{
-            Text("")
-        }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/).frame(width: 150, height: 500)
-    }
+            
+            RoundedRectangle(cornerRadius: 10)
+                    .stroke(Color.gray, lineWidth: 2)
+                .background(Color.clear)}
+        }
+
 }
+

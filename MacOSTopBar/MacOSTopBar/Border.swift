@@ -7,17 +7,24 @@
 
 import SwiftUI
 
+//mainView
 struct MainBorder : View {
     var body : some View {
         HStack{
+            //LeftView
             ExpBar()
-            
-            MainCheckList()
-            
-            SettingBar()
-                .frame(width: 100, height: 500).padding()
+                .frame(width:50,height: 275).padding(10)
                 
-        }.frame(width: 700, height: 500)
+                
+            //middleView
+            MainCheckList()
+                .frame(width: 300,height: 275)
+                
+            //Right SettingView
+            SettingBar()
+                .frame(width: 50)
+                
+        }.frame(width: 450, height: 300)
     }
 }
 

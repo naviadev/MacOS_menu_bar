@@ -9,22 +9,28 @@ import SwiftUI
 
 struct SettingBar : View {
 
-    var cols: [GridItem] = Array(repeating: .init(.fixed(50)), count: 1)
-    var img = ["gearshape", "paintpalette", "memorychip", "cpu"]
+    var cols: [GridItem] = Array(repeating: .init(.fixed(10)), count: 1)
+    var img = ["gearshape", "paintpalette", "memorychip", "cpu","paperplane.fill"]
     var body: some View {
         LazyVGrid(columns: cols, alignment: .center){
-            ForEach((0...3),id: \.self){
+            ForEach((0...4),id: \.self){
                 index in
                 Button {
                     test()
                 } label: {
                     Image(systemName: "\(img[index])")
-                        .scaleEffect(1.5)
-                        .frame(width: 50,height: 50)
+                        .scaleEffect(1.2)
+                        .frame(width: 30,height: 30)
                         .padding(5)
                 }
-                .padding(20)
-                
+                .background(
+                    RoundedRectangle(cornerRadius: 10.0)
+                        .stroke(Color.gray,lineWidth: 2)
+                        .background(Color.clear)
+                )
+                .buttonStyle(PlainButtonStyle())
+                .padding(.bottom,5)
+                .padding(.top,5)
             }
         }
         

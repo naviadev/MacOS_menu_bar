@@ -103,8 +103,8 @@
 		F2A14B762BE1C08C00979D98 /* MacOSTopBar */ = {
 			isa = PBXGroup;
 			children = (
-				F2A14B772BE1C08C00979D98 /* MenuController.swift */,
 				F2C4C88D2BE237B500A6D7C4 /* PopUpScene.swift */,
+				F2A14B772BE1C08C00979D98 /* MenuController.swift */,
 				F22BE7D12BE24FE0000A1DEA /* Border.swift */,
 				F22BE7D32BE250B6000A1DEA /* ExpBar.swift */,
 				F22BE7D52BE25180000A1DEA /* MainCheckList.swift */,
