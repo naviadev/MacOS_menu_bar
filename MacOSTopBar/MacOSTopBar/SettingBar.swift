@@ -16,7 +16,7 @@ struct SettingBar : View {
             ForEach((0...4),id: \.self){
                 index in
                 Button {
-                    test()
+                    test(index)
                 } label: {
                     Image(systemName: "\(img[index])")
                         .scaleEffect(1.2)
@@ -33,18 +33,13 @@ struct SettingBar : View {
                 .padding(.top,5)
             }
         }
-        
     }
-
-
-
-    func test(){
-        print("teste")
-        
+    func test(_ index:Int){
+        switch(index){
+        case 0:
+            return
+        default:
+            return
+        }
     }
 }
-
-func test(){}
-
-
-
