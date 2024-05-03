@@ -14,6 +14,9 @@ struct ExpBar : View {
             RoundedRectangle(cornerRadius: 10)
                 .stroke(Color.gray, lineWidth: 2)
                 .background(Color.clear)
+                .overlay(
+                    Text("EXP Area")
+                )
 
         }
     }

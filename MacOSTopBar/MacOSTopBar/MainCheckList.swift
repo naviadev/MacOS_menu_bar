@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct MainCheckList : View {
+    @State private var showPopup = false;
+    
     var body: some View {
         //RoundedRectangle, MiddleView 테두리
         HStack{
@@ -31,19 +33,19 @@ struct MainCheckList : View {
                                         .frame(width: 235,height: 40)
                                         .overlay(
                                             Text("Achievement Area")
-                                            
                                         )
-                                    
                                     Button{
-                                        addList()
-                                            
+                                        showPopup = true
                                     }label: {
                                         Image(systemName:"plus.app")
                                             .scaleEffect(1.4)
                                     }
                                     .buttonStyle(PlainButtonStyle())
-                                        
+                                }.sheet(isPresented : $showPopup){
+                                    PopupSheetView(showPopup: $showPopup)
                                 }
+                                
+                                
                                 
                             )
                         // Bottom Container
@@ -63,6 +65,27 @@ struct MainCheckList : View {
     func addList(){}
 }
 
+
+struct PopupSheetView : View {
+    @Binding var showPopup : Bool
+    
+    var body: some View {
+        VStack {
+            Text("test")
+            Divider()
+            Button {
+                showPopup = false
+            } label: {
+                Image(systemName: "plus.app")
+                    .frame(width: 100)
+                
+            }
+        }
+    }
+    
+}
+
 #Preview {
     MainBorder()
 }
+

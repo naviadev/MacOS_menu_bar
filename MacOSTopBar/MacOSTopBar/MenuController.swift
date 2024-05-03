@@ -22,7 +22,6 @@ struct MenuController: App {
             }(NSImage(named: "AppIcon")!)
             Image(nsImage: image)
         }.menuBarExtraStyle(.window)
-        
     }
 }
 
