@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2389D172BE4B07B008DADE0 /* MenuBar_MacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2389D162BE4B07B008DADE0 /* MenuBar_MacOSApp.swift */; };
-		F2389D192BE4B07B008DADE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2389D182BE4B07B008DADE0 /* ContentView.swift */; };
+		F2389D172BE4B07B008DADE0 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2389D162BE4B07B008DADE0 /* Main.swift */; };
+		F2389D192BE4B07B008DADE0 /* MiddleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2389D182BE4B07B008DADE0 /* MiddleView.swift */; };
 		F2389D1B2BE4B07C008DADE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2389D1A2BE4B07C008DADE0 /* Assets.xcassets */; };
 		F2389D1E2BE4B07C008DADE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2389D1D2BE4B07C008DADE0 /* Preview Assets.xcassets */; };
 		F2389D292BE4B07C008DADE0 /* MenuBar_MacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2389D282BE4B07C008DADE0 /* MenuBar_MacOSTests.swift */; };
 		F2389D332BE4B07C008DADE0 /* MenuBar_MacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2389D322BE4B07C008DADE0 /* MenuBar_MacOSUITests.swift */; };
 		F2389D352BE4B07C008DADE0 /* MenuBar_MacOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2389D342BE4B07C008DADE0 /* MenuBar_MacOSUITestsLaunchTests.swift */; };
+		F2D6CF102BE4C4C30059A79E /* GridTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6CF0F2BE4C4C30059A79E /* GridTest.swift */; };
+		F2D6CF122BE4C5130059A79E /* SideView-Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6CF112BE4C5130059A79E /* SideView-Menu.swift */; };
+		F2D6CF142BE4C5750059A79E /* SideView-EXP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6CF132BE4C5750059A79E /* SideView-EXP.swift */; };
+		F2D6CF162BE4C5930059A79E /* MainView#Scene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6CF152BE4C5930059A79E /* MainView#Scene1.swift */; };
+		F2D6CF182BE4C8140059A79E /* Middle.bottom.container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6CF172BE4C8140059A79E /* Middle.bottom.container.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +40,8 @@
 
 /* Begin PBXFileReference section */
 		F2389D132BE4B07B008DADE0 /* MenuBar-MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MenuBar-MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2389D162BE4B07B008DADE0 /* MenuBar_MacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar_MacOSApp.swift; sourceTree = "<group>"; };
-		F2389D182BE4B07B008DADE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2389D162BE4B07B008DADE0 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		F2389D182BE4B07B008DADE0 /* MiddleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleView.swift; sourceTree = "<group>"; };
 		F2389D1A2BE4B07C008DADE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2389D1D2BE4B07C008DADE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2389D1F2BE4B07C008DADE0 /* MenuBar_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MenuBar_MacOS.entitlements; sourceTree = "<group>"; };
@@ -45,6 +50,11 @@
 		F2389D2E2BE4B07C008DADE0 /* MenuBar-MacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MenuBar-MacOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2389D322BE4B07C008DADE0 /* MenuBar_MacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar_MacOSUITests.swift; sourceTree = "<group>"; };
 		F2389D342BE4B07C008DADE0 /* MenuBar_MacOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar_MacOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F2D6CF0F2BE4C4C30059A79E /* GridTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTest.swift; sourceTree = "<group>"; };
+		F2D6CF112BE4C5130059A79E /* SideView-Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SideView-Menu.swift"; sourceTree = "<group>"; };
+		F2D6CF132BE4C5750059A79E /* SideView-EXP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SideView-EXP.swift"; sourceTree = "<group>"; };
+		F2D6CF152BE4C5930059A79E /* MainView#Scene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainView#Scene1.swift"; sourceTree = "<group>"; };
+		F2D6CF172BE4C8140059A79E /* Middle.bottom.container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middle.bottom.container.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +105,11 @@
 		F2389D152BE4B07B008DADE0 /* MenuBar-MacOS */ = {
 			isa = PBXGroup;
 			children = (
-				F2389D162BE4B07B008DADE0 /* MenuBar_MacOSApp.swift */,
-				F2389D182BE4B07B008DADE0 /* ContentView.swift */,
+				F2D6CF0E2BE4C4A30059A79E /* testCode */,
+				F2389D442BE4B23C008DADE0 /* Model */,
+				F2389D432BE4B1FA008DADE0 /* ViewModel */,
+				F2389D422BE4B1D8008DADE0 /* View */,
+				F2389D162BE4B07B008DADE0 /* Main.swift */,
 				F2389D1A2BE4B07C008DADE0 /* Assets.xcassets */,
 				F2389D1F2BE4B07C008DADE0 /* MenuBar_MacOS.entitlements */,
 				F2389D1C2BE4B07C008DADE0 /* Preview Content */,
@@ -127,6 +140,48 @@
 				F2389D342BE4B07C008DADE0 /* MenuBar_MacOSUITestsLaunchTests.swift */,
 			);
 			path = "MenuBar-MacOSUITests";
+			sourceTree = "<group>";
+		};
+		F2389D422BE4B1D8008DADE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6CF152BE4C5930059A79E /* MainView#Scene1.swift */,
+				F2D6CF0D2BE4C47C0059A79E /* module */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F2389D432BE4B1FA008DADE0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F2389D442BE4B23C008DADE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F2D6CF0D2BE4C47C0059A79E /* module */ = {
+			isa = PBXGroup;
+			children = (
+				F2389D182BE4B07B008DADE0 /* MiddleView.swift */,
+				F2D6CF112BE4C5130059A79E /* SideView-Menu.swift */,
+				F2D6CF132BE4C5750059A79E /* SideView-EXP.swift */,
+				F2D6CF172BE4C8140059A79E /* Middle.bottom.container.swift */,
+			);
+			name = module;
+			sourceTree = "<group>";
+		};
+		F2D6CF0E2BE4C4A30059A79E /* testCode */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6CF0F2BE4C4C30059A79E /* GridTest.swift */,
+			);
+			path = testCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2389D192BE4B07B008DADE0 /* ContentView.swift in Sources */,
-				F2389D172BE4B07B008DADE0 /* MenuBar_MacOSApp.swift in Sources */,
+				F2D6CF182BE4C8140059A79E /* Middle.bottom.container.swift in Sources */,
+				F2D6CF122BE4C5130059A79E /* SideView-Menu.swift in Sources */,
+				F2389D192BE4B07B008DADE0 /* MiddleView.swift in Sources */,
+				F2D6CF162BE4C5930059A79E /* MainView#Scene1.swift in Sources */,
+				F2389D172BE4B07B008DADE0 /* Main.swift in Sources */,
+				F2D6CF102BE4C4C30059A79E /* GridTest.swift in Sources */,
+				F2D6CF142BE4C5750059A79E /* SideView-EXP.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

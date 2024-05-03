@@ -1,4 +1,4 @@
-//
+////
 //  MacOSTopBarApp.swift
 //  MacOSTopBar
 //
