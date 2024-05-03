@@ -15,6 +15,7 @@ struct MainCheckList : View {
         RoundedRectangle(cornerRadius: 10)
                 .stroke(Color.gray, lineWidth: 2)
             .background(Color.clear)}
+//        .overlay(content: <#T##() -> View#>)
                 
         }
 }
