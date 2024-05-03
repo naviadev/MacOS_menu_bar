@@ -12,9 +12,11 @@ struct ExpBar : View {
         HStack{
             
             RoundedRectangle(cornerRadius: 10)
-                    .stroke(Color.gray, lineWidth: 2)
-                .background(Color.clear)}
+                .stroke(Color.gray, lineWidth: 2)
+                .background(Color.clear)
+
         }
+    }
 
 }
 

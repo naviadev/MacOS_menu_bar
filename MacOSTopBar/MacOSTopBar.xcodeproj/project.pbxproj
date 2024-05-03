@@ -105,8 +105,8 @@
 			children = (
 				F2C4C88D2BE237B500A6D7C4 /* PopUpScene.swift */,
 				F2A14B772BE1C08C00979D98 /* MenuController.swift */,
-				F22BE7D12BE24FE0000A1DEA /* Border.swift */,
 				F22BE7D32BE250B6000A1DEA /* ExpBar.swift */,
+				F22BE7D12BE24FE0000A1DEA /* Border.swift */,
 				F22BE7D52BE25180000A1DEA /* MainCheckList.swift */,
 				F22BE7D72BE25192000A1DEA /* SettingBar.swift */,
 				F2A14B7B2BE1C08D00979D98 /* Assets.xcassets */,
