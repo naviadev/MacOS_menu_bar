@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct MainCheckList : View {
+struct MiddleView : View {
     @State private var showPopup = false;
     
     var body: some View {
@@ -84,8 +84,3 @@ struct PopupSheetView : View {
     }
     
 }
-
-#Preview {
-    MainBorder()
-}
-
