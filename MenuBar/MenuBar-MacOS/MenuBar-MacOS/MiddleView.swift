@@ -8,53 +8,27 @@
 import SwiftUI
 
 struct MiddleView : View {
-    @State private var showPopup = false;
-    
+    let radius : CGFloat = 10
+
     var body: some View {
-        //RoundedRectangle, MiddleView 테두리
+        
         HStack{
-            RoundedRectangle(cornerRadius: 10)
-                .stroke(Color.gray, lineWidth: 2)
-                .background(Color.clear)
+            ViewContainer(radius)
                 .overlay {
-                    //MiddleView 내부 container 2 .top .bottom
                     VStack{
-                        // Top Container
-                        RoundedRectangle(cornerRadius: 10)
-                            .stroke(Color.gray, lineWidth: 2)
-                            .background(Color.clear)
-                            .frame(width: 280,height: 40)
-                            // 분할 width 280 height 40
+                      ViewContainer(radius).frame(width: 280,height: 40)
                             .overlay(
                                 HStack{
-                                    RoundedRectangle(cornerRadius: 10)
-                                        .stroke(Color.gray, lineWidth: 0)
-                                        .background(Color.clear)
-                                        .frame(width: 235,height: 40)
+                                    MiddleTop1()
                                         .overlay(
                                             Text("Achievement Area")
                                         )
-                                    Button{
-                                        showPopup = true
-                                    }label: {
-                                        Image(systemName:"plus.app")
-                                            .scaleEffect(1.4)
-                                    }
-                                    .buttonStyle(PlainButtonStyle())
-                                }.sheet(isPresented : $showPopup){
-                                    PopupSheetView(showPopup: $showPopup)
-                                }
-                                
-                                
-                                
+                                    MiddleTop2()
+                                }                            
                             )
-                        // Bottom Container
-                        RoundedRectangle(cornerRadius: 10)
-                            .stroke(Color.gray, lineWidth: 2)
-                            .background(Color.clear)
-                            .frame(width: 280,height: 205)
-                            .padding(.top,2)
-                            // 하단 분할 280 205
+        
+                    ViewContainer(10)
+                            .frame(width: 280,height: 205).padding(.top,2)
                             .overlay(
                                 Text("List Area")
                             )
@@ -62,25 +36,51 @@ struct MiddleView : View {
                 }
         }
     }
-    func addList(){}
+    
 }
 
 
-struct PopupSheetView : View {
-    @Binding var showPopup : Bool
-    
+//재활용 가능한 ViewContainer Moduel
+struct ViewContainer : View {
+    let radius : CGFloat
+    init(_ radius : CGFloat){
+        self.radius = radius
+    }
     var body: some View {
-        VStack {
-            Text("test")
-            Divider()
-            Button {
-                showPopup = false
-            } label: {
-                Image(systemName: "plus.app")
-                    .frame(width: 100)
-                
-            }
+        HStack{
+            RoundedRectangle(cornerRadius: radius)
+                .stroke(Color.gray, lineWidth: 2)
+                .background(Color.clear)
         }
     }
-    
+}
+
+//Section-Middle-Top-1 View
+
+struct MiddleTop1 : View {
+    var body: some View {
+        RoundedRectangle(cornerRadius: 10)
+            .stroke(Color.gray, lineWidth: 0)
+            .background(Color.clear)
+            .frame(width: 235,height: 40)
+    }
+}
+
+//Section-Middle-Top-2 View
+struct MiddleTop2 : View {
+    var body: some View {
+        Button{
+            
+        }label: {
+            Image(systemName:"plus.app")
+                .scaleEffect(1.4)
+        }
+        .buttonStyle(PlainButtonStyle())
+    }
+}
+
+
+
+#Preview {
+    MainView()
 }

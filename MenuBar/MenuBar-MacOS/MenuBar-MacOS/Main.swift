@@ -11,7 +11,7 @@ import SwiftUI
 struct MenuController: App {
     var body : some Scene{
         MenuBarExtra {
-            MainBorder()
+            MainView()
         }
         label : {
             let image: NSImage = {

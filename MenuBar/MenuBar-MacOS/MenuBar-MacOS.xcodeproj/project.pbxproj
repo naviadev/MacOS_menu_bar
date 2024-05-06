@@ -107,7 +107,6 @@
 			children = (
 				F2D6CF0E2BE4C4A30059A79E /* testCode */,
 				F2389D442BE4B23C008DADE0 /* Model */,
-				F2389D432BE4B1FA008DADE0 /* ViewModel */,
 				F2389D422BE4B1D8008DADE0 /* View */,
 				F2389D162BE4B07B008DADE0 /* Main.swift */,
 				F2389D1A2BE4B07C008DADE0 /* Assets.xcassets */,
@@ -149,13 +148,6 @@
 				F2D6CF0D2BE4C47C0059A79E /* module */,
 			);
 			name = View;
-			sourceTree = "<group>";
-		};
-		F2389D432BE4B1FA008DADE0 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		F2389D442BE4B23C008DADE0 /* Model */ = {

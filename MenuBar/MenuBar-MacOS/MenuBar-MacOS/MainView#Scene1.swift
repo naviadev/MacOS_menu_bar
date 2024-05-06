@@ -8,7 +8,7 @@
 import SwiftUI
 
 //mainView
-struct MainBorder : View {
+struct MainView : View {
     var body : some View {
         HStack{
             //LeftView
@@ -16,7 +16,7 @@ struct MainBorder : View {
                 .frame(width:50,height: 275).padding(10)
                 
             //middleView
-            Mid()
+            MiddleView()
                 .frame(width: 300,height: 275)
                 
             //Right SettingView
