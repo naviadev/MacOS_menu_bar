@@ -34,6 +34,10 @@ struct SettingBar : View {
             }
         }
     }
+    
+    
+    
+    
     func test(_ index:Int){
         switch(index){
         case 0:

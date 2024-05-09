@@ -7,9 +7,18 @@
 
 import SwiftUI
 
+
+
+
 @main
 struct MenuController: App {
+    
+    
+    
     var body : some Scene{
+       
+
+        
         MenuBarExtra {
             MainView()
         }
@@ -22,5 +31,18 @@ struct MenuController: App {
             }(NSImage(named: "AppIcon")!)
             Image(nsImage: image)
         }.menuBarExtraStyle(.window)
+        
+        Window("CreateList", id: "pop-up") {
+            PopupView()
+                
+        }.windowResizabilityContentSize()
+
+        
+        
     }
 }
+
+
+    
+
+

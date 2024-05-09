@@ -8,15 +8,16 @@
 import SwiftUI
 
 struct MiddleView : View {
+    
     let radius : CGFloat = 10
-
+    
     var body: some View {
         
         HStack{
             ViewContainer(radius)
                 .overlay {
                     VStack{
-                      ViewContainer(radius).frame(width: 280,height: 40)
+                        ViewContainer(radius).frame(width: 280,height: 40)
                             .overlay(
                                 HStack{
                                     MiddleTop1()
@@ -24,10 +25,11 @@ struct MiddleView : View {
                                             Text("Achievement Area")
                                         )
                                     MiddleTop2()
-                                }                            
+                                }
                             )
-        
-                    ViewContainer(10)
+                        
+                        
+                        ViewContainer(10)
                             .frame(width: 280,height: 205).padding(.top,2)
                             .overlay(
                                 Text("List Area")
@@ -68,14 +70,21 @@ struct MiddleTop1 : View {
 
 //Section-Middle-Top-2 View
 struct MiddleTop2 : View {
+    
+    @Environment(\.openWindow) var openWindow
+    
     var body: some View {
+    
         Button{
-            
+            openWindow(id: "pop-up")
+
         }label: {
             Image(systemName:"plus.app")
                 .scaleEffect(1.4)
         }
         .buttonStyle(PlainButtonStyle())
+        
+
     }
 }
 
@@ -84,3 +93,4 @@ struct MiddleTop2 : View {
 #Preview {
     MainView()
 }
+
