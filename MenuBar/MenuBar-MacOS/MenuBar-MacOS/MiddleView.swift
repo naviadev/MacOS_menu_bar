@@ -14,48 +14,23 @@ struct MiddleView : View {
     var body: some View {
         
         HStack{
-            ViewContainer(radius)
-                .overlay {
-                    VStack{
-                        ViewContainer(radius).frame(width: 280,height: 40)
-                            .overlay(
-                                HStack{
-                                    MiddleTop1()
-                                        .overlay(
-                                            Text("Achievement Area")
-                                        )
-                                    MiddleTop2()
-                                }
-                            )
-                        
-                        
-                        ViewContainer(10)
-                            .frame(width: 280,height: 205).padding(.top,2)
-                            .overlay(
-                                Text("List Area")
-                            )
-                    }
+            ViewContainer(radius).overlay {
+            VStack{
+                ViewContainer(radius).frame(width: 280,height: 40).overlay(
+                HStack{
+                    MiddleTop1()
+                    MiddleTop2()
                 }
-        }
-    }
-    
-}
-
-
-//재활용 가능한 ViewContainer Moduel
-struct ViewContainer : View {
-    let radius : CGFloat
-    init(_ radius : CGFloat){
-        self.radius = radius
-    }
-    var body: some View {
-        HStack{
-            RoundedRectangle(cornerRadius: radius)
-                .stroke(Color.gray, lineWidth: 2)
-                .background(Color.clear)
+                )
+                ViewContainer(10).frame(width: 280,height: 205).padding(.top,2)
+            }
+            }
         }
     }
 }
+
+
+
 
 //Section-Middle-Top-1 View
 
@@ -68,6 +43,7 @@ struct MiddleTop1 : View {
     }
 }
 
+
 //Section-Middle-Top-2 View
 struct MiddleTop2 : View {
     
@@ -77,14 +53,12 @@ struct MiddleTop2 : View {
     
         Button{
             openWindow(id: "pop-up")
-
+            
         }label: {
             Image(systemName:"plus.app")
                 .scaleEffect(1.4)
         }
         .buttonStyle(PlainButtonStyle())
-        
-
     }
 }
 

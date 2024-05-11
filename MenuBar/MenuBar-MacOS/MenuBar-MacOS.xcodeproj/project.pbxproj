@@ -20,6 +20,8 @@
 		F2D6CF142BE4C5750059A79E /* SideView-EXP.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6CF132BE4C5750059A79E /* SideView-EXP.swift */; };
 		F2D6CF162BE4C5930059A79E /* MainView#Scene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6CF152BE4C5930059A79E /* MainView#Scene1.swift */; };
 		F2DF97752BECC1C100D9B27F /* ExtensionScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF97742BECC1C100D9B27F /* ExtensionScene.swift */; };
+		F2DF97782BECD6CB00D9B27F /* StaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF97772BECD6CB00D9B27F /* StaticView.swift */; };
+		F2DF977B2BECF43900D9B27F /* mainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF977A2BECF43900D9B27F /* mainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		F2D6CF132BE4C5750059A79E /* SideView-EXP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SideView-EXP.swift"; sourceTree = "<group>"; };
 		F2D6CF152BE4C5930059A79E /* MainView#Scene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainView#Scene1.swift"; sourceTree = "<group>"; };
 		F2DF97742BECC1C100D9B27F /* ExtensionScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionScene.swift; sourceTree = "<group>"; };
+		F2DF97772BECD6CB00D9B27F /* StaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticView.swift; sourceTree = "<group>"; };
+		F2DF977A2BECF43900D9B27F /* mainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		F2389D0A2BE4B07B008DADE0 = {
 			isa = PBXGroup;
 			children = (
+				F2DF97792BECF42A00D9B27F /* ViewModel */,
+				F2DF97762BECD63A00D9B27F /* Model */,
 				F2389D152BE4B07B008DADE0 /* MenuBar-MacOS */,
 				F2389D272BE4B07C008DADE0 /* MenuBar-MacOSTests */,
 				F2389D312BE4B07C008DADE0 /* MenuBar-MacOSUITests */,
@@ -108,12 +114,12 @@
 			isa = PBXGroup;
 			children = (
 				F2D6CF0E2BE4C4A30059A79E /* testCode */,
-				F2389D442BE4B23C008DADE0 /* Model */,
+				F2389D442BE4B23C008DADE0 /* ViewModel */,
 				F2389D422BE4B1D8008DADE0 /* View */,
 				F2389D162BE4B07B008DADE0 /* Main.swift */,
+				F2DF97742BECC1C100D9B27F /* ExtensionScene.swift */,
 				F2389D1A2BE4B07C008DADE0 /* Assets.xcassets */,
 				F2389D1F2BE4B07C008DADE0 /* MenuBar_MacOS.entitlements */,
-				F2DF97742BECC1C100D9B27F /* ExtensionScene.swift */,
 				F2389D1C2BE4B07C008DADE0 /* Preview Content */,
 			);
 			path = "MenuBar-MacOS";
@@ -154,11 +160,11 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		F2389D442BE4B23C008DADE0 /* Model */ = {
+		F2389D442BE4B23C008DADE0 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Model;
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 		F2D6CF0D2BE4C47C0059A79E /* module */ = {
@@ -167,6 +173,7 @@
 				F2389D182BE4B07B008DADE0 /* MiddleView.swift */,
 				F2D6CF112BE4C5130059A79E /* SideView-Menu.swift */,
 				F2D6CF132BE4C5750059A79E /* SideView-EXP.swift */,
+				F2DF97772BECD6CB00D9B27F /* StaticView.swift */,
 			);
 			name = module;
 			sourceTree = "<group>";
@@ -177,6 +184,21 @@
 				F2D6CF0F2BE4C4C30059A79E /* GridTest.swift */,
 			);
 			path = testCode;
+			sourceTree = "<group>";
+		};
+		F2DF97762BECD63A00D9B27F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F2DF97792BECF42A00D9B27F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F2DF977A2BECF43900D9B27F /* mainViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,9 +336,11 @@
 				F2D6CF162BE4C5930059A79E /* MainView#Scene1.swift in Sources */,
 				F2389D172BE4B07B008DADE0 /* Main.swift in Sources */,
 				F2D6CF102BE4C4C30059A79E /* GridTest.swift in Sources */,
+				F2DF977B2BECF43900D9B27F /* mainViewModel.swift in Sources */,
 				F25543DA2BECB68A00AA4E2F /* PopupView#createList.swift in Sources */,
 				F2DF97752BECC1C100D9B27F /* ExtensionScene.swift in Sources */,
 				F2D6CF142BE4C5750059A79E /* SideView-EXP.swift in Sources */,
+				F2DF97782BECD6CB00D9B27F /* StaticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

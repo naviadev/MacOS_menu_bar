@@ -10,36 +10,30 @@ import SwiftUI
 
 struct PopupView : View{
     
+    @State var header: String = ""
+    @State var main: String = ""
+    
     var body : some View{
         
         VStack{
-            HStack{
-                Button{
-                    
-                }label: {
-                    Rectangle()
-                    .frame(width: 100, height: 100)
-                }
-                Button{
-                    
-                }label: {
-                    Rectangle()
-                    .frame(width: 100, height: 100)
-                }
-                Button{
-                    
-                }label: {
-                    Rectangle()
-                    .frame(width: 100, height: 100)
-                }
+            
+            TextField("제목", text : $header)
+                .textFieldStyle(.roundedBorder)
+                .frame(width: 200, height: 100)
+            
+            TextEditor(text : $main)
+                .frame(width: 200,height: 200)
                 
-            }
+            
+       
+                
             
             
-        }
-        
+        }.frame(width: 400, height: 400)
     }
-    
 }
 
+#Preview{
+    PopupView()
+}
 

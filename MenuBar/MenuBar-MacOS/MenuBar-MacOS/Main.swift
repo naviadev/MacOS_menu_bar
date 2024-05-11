@@ -7,21 +7,15 @@
 
 import SwiftUI
 
-
-
-
 @main
 struct MenuController: App {
     
-    
-    
     var body : some Scene{
-       
-
         
         MenuBarExtra {
             MainView()
         }
+        
         label : {
             let image: NSImage = {
                 let ratio = $0.size.height / $0.size.width
@@ -34,15 +28,13 @@ struct MenuController: App {
         
         Window("CreateList", id: "pop-up") {
             PopupView()
-                
-        }.windowResizabilityContentSize()
-
-        
-        
+        }
+        .windowResizabilityContentSize()
     }
 }
 
 
     
+
 
 
