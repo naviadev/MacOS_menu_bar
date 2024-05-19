@@ -5,6 +5,10 @@
 //  Created by 배성빈 on 5/1/24.
 //
 
+//Right-Section의 버튼들을 동적으로 생성함. img를 순회하며 grid 생성.
+//ForEach (View를 그려주는, 반환하는 메서드)
+
+
 import SwiftUI
 
 struct SettingBar : View {
@@ -37,7 +41,8 @@ struct SettingBar : View {
     
     
     
-    
+//  임시 제작. 각 버튼에 Action 추가.
+
     func test(_ index:Int){
         switch(index){
         case 0:

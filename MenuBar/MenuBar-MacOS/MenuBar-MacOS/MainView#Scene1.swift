@@ -5,6 +5,7 @@
 //  Created by 배성빈 on 5/1/24.
 //
 
+//각각의 View를 불러와 단순 출력해주는 모듈.
 import SwiftUI
 
 //mainView

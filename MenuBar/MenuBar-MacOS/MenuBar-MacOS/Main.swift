@@ -5,6 +5,8 @@
 //  Created by 배성빈 on 5/1/24.
 //
 
+
+//Main이 되는 역할. -> View를 불러오는 역할.
 import SwiftUI
 
 @main

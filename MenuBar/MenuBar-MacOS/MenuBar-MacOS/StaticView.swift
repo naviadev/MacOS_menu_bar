@@ -21,3 +21,7 @@ struct ViewContainer : View {
         }
     }
 }
+
+#Preview {
+    MainView()
+}

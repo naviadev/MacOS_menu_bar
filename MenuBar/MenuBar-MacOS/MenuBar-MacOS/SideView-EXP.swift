@@ -5,6 +5,7 @@
 //  Created by 배성빈 on 5/1/24.
 //
 
+//Left-section EXP Bar의 영역을 표시하는 View
 import SwiftUI
 
 struct ExpBar : View {
