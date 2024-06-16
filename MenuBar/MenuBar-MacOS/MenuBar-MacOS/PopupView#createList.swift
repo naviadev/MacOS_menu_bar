@@ -11,27 +11,42 @@ import SwiftUI
 // MainView를 새롭게 그린다.
 
 struct PopupView : View{
+//  View 모델을 멤버 변수로 인스턴스하여 옵저버 패턴을 구현
+    @StateObject private var viewModel = ScheduleViewModel()
     
-    @State var header: String = ""
-    
-    @State var main: String = ""
     
     var body : some View{
         
         VStack{
+//          상단 제목 부분
+            HStack{
+                TextField("제목", text : $viewModel.header)
+                    .textFieldStyle(.roundedBorder)
+                    .frame(width: 200, height: 40)
+            }
+//          본문 텍스트 영역 부분
+            VStack{
+                TextEditor(text : $viewModel.main)
+//                    .textFieldStyle(.roundedBorder)
+                    .border(Color.gray, width: 1)
+                    .frame(width: 200,height: 200)
+            }
             
-            TextField("제목", text : $header)
-                .textFieldStyle(.roundedBorder)
-                .frame(width: 200, height: 100)
-            
-            TextEditor(text : $main)
-                .frame(width: 200,height: 200)
+//          작성 버튼
+            Button{
+                viewModel.addSchedule(header: viewModel.header, main: viewModel.main)
 
-        }.frame(width: 400, height: 400)
+            }label: {
+                Image(systemName:"plus.app")
+                    .scaleEffect(1.4)
+            }
+            .buttonStyle(PlainButtonStyle())
+
+        }.frame(width: 300, height: 300)
+        
     }
 }
 
 #Preview{
     PopupView()
 }
-

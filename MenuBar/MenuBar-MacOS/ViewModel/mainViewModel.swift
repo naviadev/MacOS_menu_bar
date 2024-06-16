@@ -24,3 +24,34 @@
 //        
 //    }
 //}
+
+
+import SwiftUI
+import Combine
+
+// ViewModel
+
+class ScheduleViewModel: ObservableObject {
+    //  Published 변수를 통해 상태가 업데이트되면 View를 새로 그릴 수 있도록 함.
+    @Published var header: String = ""
+    @Published var main: String = ""
+
+    // Set<AnyCancellable>: Combine의 구독을 관리하는 데 사용
+    var cancellables = Set<AnyCancellable>()
+    
+    init() {
+        // State 변수의 변화를 감지하고 데이터베이스에 추가
+        $header
+            .combineLatest($main)
+            .sink { header, main in
+                if !header.isEmpty && !main.isEmpty {
+                    self.addSchedule(header: header, main: main)
+                }
+            }
+            .store(in: &cancellables)
+    }
+    
+    func addSchedule(header: String, main: String) {
+
+    }
+}
